@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description about="urn:mozilla:install-manifest">
+    <id>bindkeys@maltera.com</id>
+    <name>BindKeys</name>
+    <version>0.1</version>
+
+    <description>Allows arbitrary manipulation of default key bindings.</description>
+    <creator>Sam Hanes</creator>
+
+    <type>2</type>
+    <bootstrap>true</bootstrap>
+
+    <targetApplication>
+      <rdf:Description>
+        <id>toolkit@mozilla.org</id>
+        <minVersion>8.0</minVersion>
+        <maxVersion>26.*</maxVersion>
+      </rdf:Description>
+    </targetApplication>
+  </rdf:Description>
+</rdf:RDF>
